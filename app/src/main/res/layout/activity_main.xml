@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I.R.I.S."/>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/mic_btn"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_gravity="center_vertical"
+            app:rippleColor="@color/black"
+            android:layout_marginVertical="20dp"/>
+ />
+    </RelativeLayout>
+
+
+</RelativeLayout>
